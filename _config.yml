@@ -18,7 +18,7 @@ email: jeffholst@gmail.com
 description: Welcome to Jakah
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jakah.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @jeffholst
+twitter_username: jeffholst
 github_username:  jeffholst
 
 # Build settings
