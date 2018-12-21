@@ -189,9 +189,50 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "syntax-highlighting"
 ;
+
+.game-container{
+  width: 100%;
+  overflow: hidden;
+}
+
+.game-menu{
+  width: 210px;
+  float: left;
+}
+
+.game-content{
+  margin-left: 230px;
+}
+
+table.UnitTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #00c5ff;
+  border-style: solid;
+  color: #000000;
+}
+
+table.UnitTable th {
+  border-width: 2px;
+  border-color: #00c5ff;
+  border-style: solid;
+  padding: 3px;
+  color: #000000;
+}
+
+table.UnitTable td{
+  border-width: 2px;
+  border-color: #00c5ff;
+  border-style: solid;
+  padding: 3px;
+  color: #ffffff;
+}
+
+table.UnitTable thead {
+  background-color: #00c5ff;
+}

@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jakah
+title: JaKaH
 email: jeffholst@gmail.com
-description: Welcome to Jakah
+description: Welcome to JaKaH
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jakah.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jeffholst
@@ -38,3 +38,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include: ['_pages']

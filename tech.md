@@ -3,12 +3,11 @@ layout: page
 title: Tech
 permalink: /tech/
 ---
-<i class="fa fa-camera-retro"></i>
 <div class="man-title">
   TECHNOLOGY
 </div>
 <div class="manual manual-title">
-  Development
+  DEV TOOLS
   </div>
 <p>
   <div class="manual-content">
@@ -22,7 +21,7 @@ permalink: /tech/
 <p><br /></p>
 
   <div class="manual manual-title">
-  Documentation
+  WEBSITE & DOCUMENTATION
   </div>
 <p>
  <div class="manual-content">

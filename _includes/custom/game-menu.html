@@ -1,0 +1,22 @@
+<ul id="menu">
+    <li class="ui-widget-header"><div>Category 1</div></li>
+    <li><div>Option 1</div></li>
+    <li><div>Option 2</div></li>
+    <li class="ui-widget-header"><div>Units</div></li>
+    <li><div><a href="/pages/units/infantry">Infantry</a></div></li>
+    <li><div>Option 5</div></li>
+    <li><div>Option 6</div></li>
+  </ul>
+  
+  <script>
+    $( function() {
+      $( "#menu" ).menu({
+        items: "> :not(.ui-widget-header)"
+      });
+    } );
+  </script>
+  <style>
+    .ui-menu { width: 200px; }
+    .ui-widget-header { padding: 0.2em; }
+  </style>
+  

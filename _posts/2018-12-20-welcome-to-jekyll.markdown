@@ -1,11 +1,20 @@
 ---
 layout: post
-title:  "View on Github Pages"
+title:  "Sample Formatting"
 date:   2018-12-20 17:01:43 +0530
 categories: jekyll update
 author: "Jeff"
+excerpt_separator: <!--more-->
 ---
-View this on Github Pages at [https://jeffholst.github.io/jakah-docs/][view-gh-pages]
+Sample formatting options.
+<!--more-->
+<h1>Icon example</h1>
+<i class="fa fa-camera-retro"></i> normal size (1x)
+<i class="fa fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa fa-camera-retro fa-5x"></i> fa-5x
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -23,7 +32,6 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[view-gh-pages]: https://jeffholst.github.io/jakah-docs/
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
